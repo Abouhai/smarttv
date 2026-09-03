@@ -1,7 +1,15 @@
 /* Smart-IPTV.One — Main JS */
 
-// ── Mobile nav
 document.addEventListener('DOMContentLoaded', () => {
+  // ── Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  if (navbar) {
+    const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 20);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // ── Mobile nav
   const hamburger = document.querySelector('.hamburger');
   const navMenu = document.querySelector('.nav-menu');
   if (hamburger && navMenu) {
@@ -12,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', e => {
       if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
         navMenu.classList.remove('open');
+        hamburger.classList.remove('open');
       }
     });
   }
@@ -55,15 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ── Scroll reveal
+  // ── Scroll reveal with stagger
   const observer = new IntersectionObserver(entries => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0.08 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
   // ── Smooth anchor scroll
@@ -74,8 +83,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
-
-// ── WhatsApp helper
-function waLink(msg) {
-  return 'https://wa.me/447446194864?text=' + encodeURIComponent(msg);
-}
