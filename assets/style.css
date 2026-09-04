@@ -186,6 +186,7 @@ section { padding: 5.5rem 0; position: relative; }
   transition: width .3s; border-radius: 1px;
 }
 .nav-menu a:hover::after { width: 100%; }
+.nav-menu .btn-wa-menu { display: none; }
 .nav-actions { display: flex; align-items: center; gap: .6rem; margin-left: auto; }
 
 /* Language switcher */
@@ -198,7 +199,7 @@ section { padding: 5.5rem 0; position: relative; }
 }
 .lang-btn:hover { color: var(--text); border-color: var(--border-2); background: var(--bg-2); }
 .lang-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
-.lang-select { display: none; }
+.lang-select { display: block; padding: .3rem .5rem; border-radius: 6px; font-size: .78rem; font-weight: 700; font-family: inherit; color: var(--text); border: 1px solid var(--border); background: var(--white); cursor: pointer; }
 
 /* Hamburger */
 .hamburger {
@@ -539,7 +540,7 @@ footer {
   padding: 4rem 0 2rem;
 }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
-.footer-brand img { height: 34px; margin-bottom: 1rem; }
+.footer-brand img { height: 34px; margin-bottom: 1rem; display: block; max-width: 100%; }
 .footer-brand p { font-size: .88rem; line-height: 1.7; }
 .footer-col h4 { color: #fff; font-size: .9rem; margin-bottom: 1.1rem; font-weight: 600; }
 .footer-col ul { list-style: none; }
@@ -746,15 +747,14 @@ td.lose { color: #ef4444; font-weight: 700; }
   .hamburger { display: flex; }
   .nav-actions .btn-wa { display: none; }
   .nav-actions { gap: .4rem; }
+  .nav-menu .btn-wa-menu { display: flex; }
+  .nav-logo { order: 1; }
+  .hamburger { order: 3; margin-left: auto; }
+  .nav-menu { order: 4; }
+  .nav-actions { order: 2; margin-left: 0; }
   .pricing-tabs { max-width: 100%; flex-wrap: wrap; justify-content: center; }
   .tab-btn { padding: .5rem .9rem; font-size: .82rem; }
   .lang-switcher { display: none; }
-  .lang-select {
-    display: block; padding: .3rem .4rem; border-radius: 6px;
-    font-size: .75rem; font-weight: 700; font-family: inherit;
-    color: var(--text); border: 1px solid var(--border);
-    background: var(--white); cursor: pointer; appearance: auto;
-  }
   .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   table { min-width: 0; }
   .btn-lg { padding: .9rem 1.4rem; font-size: .95rem; white-space: normal; }
