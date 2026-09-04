@@ -2,101 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Swedish homepage (main) -->
+  <!-- ── Homepages (with hreflang cross-links) ── -->
   <url>
     <loc>https://smart-iptv.one/</loc>
     <xhtml:link rel="alternate" hreflang="sv" href="https://smart-iptv.one/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://smart-iptv.one/en/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://smart-iptv.one/fr/"/>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Swedish pages -->
-  <url>
-    <loc>https://smart-iptv.one/hur-installera.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/gratis-provperiod.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/blogg/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/blogg/vad-ar-iptv.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- English homepage -->
   <url>
     <loc>https://smart-iptv.one/en/</loc>
     <xhtml:link rel="alternate" hreflang="sv" href="https://smart-iptv.one/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://smart-iptv.one/en/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://smart-iptv.one/fr/"/>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- English pages -->
-  <url>
-    <loc>https://smart-iptv.one/en/how-to-install.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/en/free-trial.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/en/blog/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/en/blog/what-is-iptv.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/en/blog/how-to-setup-smart-iptv-samsung.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smart-iptv.one/en/blog/iptv-vs-cable.html</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- French homepage -->
   <url>
     <loc>https://smart-iptv.one/fr/</loc>
     <xhtml:link rel="alternate" hreflang="sv" href="https://smart-iptv.one/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://smart-iptv.one/en/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://smart-iptv.one/fr/"/>
-    <lastmod>2025-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- ── Swedish pages ── -->
+  <url>
+    <loc>https://smart-iptv.one/hur-installera.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/gratis-provperiod.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/blogg/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/blogg/vad-ar-iptv.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ── English pages ── -->
+  <url>
+    <loc>https://smart-iptv.one/en/how-to-install.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/en/free-trial.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/en/blog/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/en/blog/what-is-iptv.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/en/blog/how-to-setup-smart-iptv-samsung.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smart-iptv.one/en/blog/iptv-vs-cable.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

@@ -746,6 +746,8 @@ td.lose { color: #ef4444; font-weight: 700; }
   .hamburger { display: flex; }
   .nav-actions .btn-wa { display: none; }
   .nav-actions { gap: .4rem; }
+  .pricing-tabs { max-width: 100%; flex-wrap: wrap; justify-content: center; }
+  .tab-btn { padding: .5rem .9rem; font-size: .82rem; }
   .lang-switcher { display: none; }
   .lang-select {
     display: block; padding: .3rem .4rem; border-radius: 6px;
